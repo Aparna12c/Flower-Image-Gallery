@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    border: 1px solid black;
+    width: 270px;
+    text-align: center;
+    /* height: 290px; */
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    padding: 15px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 30px;
+
+}
+
+.checked {
+    color: orange;
+}
+
+
+.img-text {
+    line-height: 1.8rem;
+}
+
+.cart-button {
+    text-transform: capitalize;
+    width: 85%;
+    padding: 7px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+}
